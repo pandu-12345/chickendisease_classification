@@ -1,0 +1,175 @@
+[2024-12-19 12:57:45,520: INFO : main : welcome to the ml model ]
+[2024-12-23 15:45:18,844: INFO : common : yaml file: config\config.yaml loaded successfully ]
+[2024-12-23 15:46:57,121: INFO : common : yaml file: config\config.yaml loaded successfully ]
+[2024-12-23 15:58:25,752: INFO : common : yaml file: config\config.yaml loaded successfully ]
+[2024-12-23 15:58:25,756: INFO : common : yaml file: params.yaml loaded successfully ]
+[2024-12-23 16:00:34,209: INFO : common : yaml file: config\config.yaml loaded successfully ]
+[2024-12-23 16:00:34,216: INFO : common : yaml file: params.yaml loaded successfully ]
+[2024-12-23 16:00:34,218: INFO : common : Directory: artifacts created successfully ]
+[2024-12-23 16:00:34,220: INFO : common : Directory: artifacts/data_ingestion created successfully ]
+[2024-12-23 16:02:04,728: INFO : common : yaml file: config\config.yaml loaded successfully ]
+[2024-12-23 16:02:04,728: INFO : common : yaml file: params.yaml loaded successfully ]
+[2024-12-23 16:02:04,738: INFO : common : Directory: artifacts created successfully ]
+[2024-12-23 16:02:04,739: INFO : common : Directory: artifacts/data_ingestion created successfully ]
+[2024-12-23 16:06:58,044: INFO : common : yaml file: config\config.yaml loaded successfully ]
+[2024-12-23 16:06:58,046: INFO : common : yaml file: params.yaml loaded successfully ]
+[2024-12-23 16:06:58,048: INFO : common : Directory: artifacts created successfully ]
+[2024-12-23 16:06:58,050: INFO : common : Directory: artifacts/data_ingestion created successfully ]
+[2024-12-23 16:07:49,896: INFO : common : yaml file: config\config.yaml loaded successfully ]
+[2024-12-23 16:07:49,902: INFO : common : yaml file: params.yaml loaded successfully ]
+[2024-12-23 16:07:49,904: INFO : common : Directory: artifacts created successfully ]
+[2024-12-23 16:07:49,906: INFO : common : Directory: artifacts/data_ingestion created successfully ]
+[2024-12-23 16:10:48,430: INFO : common : yaml file: config\config.yaml loaded successfully ]
+[2024-12-23 16:10:48,431: INFO : common : yaml file: params.yaml loaded successfully ]
+[2024-12-23 16:10:48,433: INFO : common : Directory: artifacts created successfully ]
+[2024-12-23 16:10:48,436: INFO : common : Directory: artifacts/data_ingestion created successfully ]
+[2024-12-23 16:12:28,531: INFO : common : yaml file: config\config.yaml loaded successfully ]
+[2024-12-23 16:12:28,536: INFO : common : yaml file: params.yaml loaded successfully ]
+[2024-12-23 16:12:28,538: INFO : common : Directory: artifacts created successfully ]
+[2024-12-23 16:12:28,539: INFO : common : Directory: artifacts/data_ingestion created successfully ]
+[2024-12-23 16:14:20,420: INFO : common : yaml file: config\config.yaml loaded successfully ]
+[2024-12-23 16:14:20,421: INFO : common : yaml file: params.yaml loaded successfully ]
+[2024-12-23 16:14:20,426: INFO : common : Directory: artifacts created successfully ]
+[2024-12-23 16:14:20,427: INFO : common : Directory: artifacts/data_ingestion created successfully ]
+[2024-12-23 16:15:38,907: INFO : common : yaml file: config\config.yaml loaded successfully ]
+[2024-12-23 16:15:38,910: INFO : common : yaml file: params.yaml loaded successfully ]
+[2024-12-23 16:15:38,911: INFO : common : Directory: artifacts created successfully ]
+[2024-12-23 16:15:38,912: INFO : common : Directory: artifacts/data_ingestion created successfully ]
+[2024-12-23 16:15:42,133: INFO : common : yaml file: config\config.yaml loaded successfully ]
+[2024-12-23 16:15:42,136: INFO : common : yaml file: params.yaml loaded successfully ]
+[2024-12-23 16:15:42,140: INFO : common : Directory: artifacts created successfully ]
+[2024-12-23 16:15:42,141: INFO : common : Directory: artifacts/data_ingestion created successfully ]
+[2024-12-23 16:17:11,825: INFO : common : yaml file: config\config.yaml loaded successfully ]
+[2024-12-23 16:17:11,829: INFO : common : yaml file: params.yaml loaded successfully ]
+[2024-12-23 16:17:11,831: INFO : common : Directory: artifacts created successfully ]
+[2024-12-23 16:17:11,832: INFO : common : Directory: artifacts/data_ingestion created successfully ]
+[2024-12-23 16:17:58,214: INFO : common : yaml file: config\config.yaml loaded successfully ]
+[2024-12-23 16:17:58,216: INFO : common : yaml file: params.yaml loaded successfully ]
+[2024-12-23 16:17:58,217: INFO : common : Directory: artifacts created successfully ]
+[2024-12-23 16:17:58,221: INFO : common : Directory: artifacts/data_ingestion created successfully ]
+[2024-12-23 16:22:45,048: INFO : common : yaml file: config\config.yaml loaded successfully ]
+[2024-12-23 16:22:45,050: INFO : common : yaml file: params.yaml loaded successfully ]
+[2024-12-23 16:22:45,050: INFO : common : Directory: artifacts created successfully ]
+[2024-12-23 16:22:45,054: INFO : common : Directory: artifacts/data_ingestion created successfully ]
+[2024-12-23 16:22:59,060: INFO : 1144568391 : artifacts\data_ingestion\data.zip downloaded with the following info: 
+Connection: close
+Content-Length: 11616915
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "adf745abc03891fe493c3be264ec012691fe3fa21d861f35a27edbe6d86a76b1"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 7302:5BFCD:8BCFC:C6B9A:676940FB
+Accept-Ranges: bytes
+Date: Mon, 23 Dec 2024 10:52:45 GMT
+Via: 1.1 varnish
+X-Served-By: cache-del21733-DEL
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1734951164.434746,VS0,VE977
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 55d13b2da20bdad30d860a30020e7c4322350a43
+Expires: Mon, 23 Dec 2024 10:57:45 GMT
+Source-Age: 1
+
+ ]
+[2024-12-23 16:22:59,631: INFO : 1144568391 : Zip file extracted to : artifacts/data_ingestion/ ]
+[2024-12-24 19:29:34,063: INFO : main : >>>>> satge Data Ingestion Stage started  ]
+[2024-12-24 19:29:34,070: INFO : common : yaml file: config\config.yaml loaded successfully ]
+[2024-12-24 19:29:34,083: INFO : common : yaml file: params.yaml loaded successfully ]
+[2024-12-24 19:29:34,087: INFO : common : Directory: artifacts created successfully ]
+[2024-12-24 19:29:34,087: INFO : common : Directory: artifacts/data_ingestion created successfully ]
+[2024-12-24 19:29:34,087: ERROR : main : name 'DataIngestion' is not defined ]
+Traceback (most recent call last):
+  File "C:\Users\jhasu\OneDrive\Desktop\chickenclassifier\chickendisease_classification\main.py", line 9, in <module>
+    obj.main()
+  File "C:\Users\jhasu\OneDrive\Desktop\chickenclassifier\chickendisease_classification\src\cnnClassifier\pipeline\stage_01_data_ingestion.py", line 16, in main
+    data_ingestion= DataIngestion(data_config)
+                    ^^^^^^^^^^^^^
+NameError: name 'DataIngestion' is not defined
+[2024-12-24 19:31:33,027: INFO : main : >>>>> satge Data Ingestion Stage started  ]
+[2024-12-24 19:31:33,027: INFO : common : yaml file: config\config.yaml loaded successfully ]
+[2024-12-24 19:31:33,037: INFO : common : yaml file: params.yaml loaded successfully ]
+[2024-12-24 19:31:33,038: INFO : common : Directory: artifacts created successfully ]
+[2024-12-24 19:31:33,038: INFO : common : Directory: artifacts/data_ingestion created successfully ]
+[2024-12-24 19:31:33,038: ERROR : main : DataIngestionConfig.__init__() missing 3 required positional arguments: 'source_URL', 'local_data_file', and 'Unzip_dir' ]
+Traceback (most recent call last):
+  File "C:\Users\jhasu\OneDrive\Desktop\chickenclassifier\chickendisease_classification\main.py", line 9, in <module>
+    obj.main()
+  File "C:\Users\jhasu\OneDrive\Desktop\chickenclassifier\chickendisease_classification\src\cnnClassifier\pipeline\stage_01_data_ingestion.py", line 16, in main
+    data_ingestion= DataIngestionConfig(data_config)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: DataIngestionConfig.__init__() missing 3 required positional arguments: 'source_URL', 'local_data_file', and 'Unzip_dir'
+[2024-12-24 19:37:46,569: INFO : main : >>>>> satge Data Ingestion Stage started  ]
+[2024-12-24 19:37:46,569: INFO : common : yaml file: config\config.yaml loaded successfully ]
+[2024-12-24 19:37:46,578: INFO : common : yaml file: params.yaml loaded successfully ]
+[2024-12-24 19:37:46,578: INFO : common : Directory: artifacts created successfully ]
+[2024-12-24 19:37:46,578: INFO : common : Directory: artifacts/data_ingestion created successfully ]
+[2024-12-24 19:37:52,562: INFO : data_ingestion : artifacts\data_ingestion\data.zip downloaded with the following info: 
+Connection: close
+Content-Length: 11616915
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "adf745abc03891fe493c3be264ec012691fe3fa21d861f35a27edbe6d86a76b1"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: E777:328B42:F723A:15E855:676AC032
+Accept-Ranges: bytes
+Date: Tue, 24 Dec 2024 14:07:47 GMT
+Via: 1.1 varnish
+X-Served-By: cache-del21722-DEL
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1735049267.664350,VS0,VE917
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 1572691fe73ccb9727dd71d4d456c65b095756d2
+Expires: Tue, 24 Dec 2024 14:12:47 GMT
+Source-Age: 1
+
+ ]
+[2024-12-24 19:37:52,992: INFO : data_ingestion : Zip file extracted to : artifacts/data_ingestion/ ]
+[2024-12-24 19:37:52,994: INFO : main : >>>>> satge Data Ingestion Stage completed  ]
+[2024-12-24 19:38:16,995: INFO : main : >>>>> satge Data Ingestion Stage started  ]
+[2024-12-24 19:38:16,995: INFO : common : yaml file: config\config.yaml loaded successfully ]
+[2024-12-24 19:38:16,995: INFO : common : yaml file: params.yaml loaded successfully ]
+[2024-12-24 19:38:16,995: INFO : common : Directory: artifacts created successfully ]
+[2024-12-24 19:38:16,995: INFO : common : Directory: artifacts/data_ingestion created successfully ]
+[2024-12-24 19:38:22,418: INFO : data_ingestion : artifacts\data_ingestion\data.zip downloaded with the following info: 
+Connection: close
+Content-Length: 11616915
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "adf745abc03891fe493c3be264ec012691fe3fa21d861f35a27edbe6d86a76b1"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: E777:328B42:F723A:15E855:676AC032
+Accept-Ranges: bytes
+Date: Tue, 24 Dec 2024 14:08:16 GMT
+Via: 1.1 varnish
+X-Served-By: cache-del21741-DEL
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1735049297.703856,VS0,VE1
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 425170961844f4e6fdb81986cf57f306be17bc10
+Expires: Tue, 24 Dec 2024 14:13:16 GMT
+Source-Age: 30
+
+ ]
+[2024-12-24 19:38:22,906: INFO : data_ingestion : Zip file extracted to : artifacts/data_ingestion/ ]
+[2024-12-24 19:38:22,906: INFO : main : >>>>> satge Data Ingestion Stage completed  ]
