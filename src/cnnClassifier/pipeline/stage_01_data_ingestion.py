@@ -1,6 +1,6 @@
 
 from  src.cnnClassifier.loggs import  logger
-from  src.cnnClassifier.config.configuration import  ConfigurationManager
+from  src.cnnClassifier.config.configuration import  DataIngestionConfigurationManager
 from  src.cnnClassifier.entity.config_entity import  DataIngestionConfig
 from src.cnnClassifier.components.data_ingestion import DataIngestion
 
@@ -11,7 +11,7 @@ class DataIngestionTrainingPipline:
         pass
 
     def main(self):
-        config= ConfigurationManager()
+        config= DataIngestionConfigurationManager()
         data_config=  config.get_data_ingestion_configuration()
         data_ingestion= DataIngestion(data_config)
         data_ingestion.download_data()
