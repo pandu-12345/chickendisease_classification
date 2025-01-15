@@ -301,3 +301,297 @@ Source-Age: 0
 [2024-12-31 20:14:40,046: INFO : common : Directory: artifacts/prepare_callback created successfully ]
 [2024-12-31 20:14:40,046: INFO : common : Directory: artifacts/prepare_callback/tensorboard_log_dir created successfully ]
 [2024-12-31 20:14:40,056: INFO : common : Directory: artifacts/prepare_callback/checkpoint_dir/model.keras created successfully ]
+[2025-01-03 10:37:22,482: INFO : common : yaml file: config\config.yaml loaded successfully ]
+[2025-01-03 10:37:22,487: INFO : common : yaml file: params.yaml loaded successfully ]
+[2025-01-03 10:37:22,490: INFO : common : Directory: artifacts/prepare_callback/tensorboard_log_dir created successfully ]
+[2025-01-03 10:37:22,490: INFO : common : Directory: artifacts/prepare_callback/checkpoint_dir/model.keras created successfully ]
+[2025-01-12 21:11:27,012: INFO : common : yaml file: config\config.yaml loaded successfully ]
+[2025-01-12 21:11:27,041: INFO : common : yaml file: params.yaml loaded successfully ]
+[2025-01-12 21:11:27,053: INFO : common : Directory: artifacts/prepare_callback/checkpoint_dir created successfully ]
+[2025-01-12 21:11:27,056: INFO : common : Directory: artifacts/prepare_callback/checkpoint_dir/model.keras created successfully ]
+[2025-01-12 21:13:21,911: INFO : common : yaml file: config\config.yaml loaded successfully ]
+[2025-01-12 21:13:21,918: INFO : common : yaml file: params.yaml loaded successfully ]
+[2025-01-12 21:13:21,923: INFO : common : Directory: artifacts/prepare_callback/checkpoint_dir created successfully ]
+[2025-01-12 21:13:21,926: INFO : common : Directory: artifacts/prepare_callback/checkpoint_dir/model.keras created successfully ]
+[2025-01-12 21:19:14,841: INFO : common : yaml file: config\config.yaml loaded successfully ]
+[2025-01-12 21:19:14,846: INFO : common : yaml file: params.yaml loaded successfully ]
+[2025-01-12 21:19:14,851: INFO : common : Directory: artifacts/prepare_callback/checkpoint_dir created successfully ]
+[2025-01-12 21:19:14,853: INFO : common : Directory: artifacts/prepare_callback/checkpoint_dir/model.keras created successfully ]
+[2025-01-12 21:19:14,860: INFO : common : Directory: artifacts\training created successfully ]
+[2025-01-12 21:21:07,475: INFO : common : yaml file: config\config.yaml loaded successfully ]
+[2025-01-12 21:21:07,479: INFO : common : yaml file: params.yaml loaded successfully ]
+[2025-01-12 21:21:07,484: INFO : common : Directory: artifacts/prepare_callback/checkpoint_dir created successfully ]
+[2025-01-12 21:21:07,487: INFO : common : Directory: artifacts/prepare_callback/checkpoint_dir/model.keras created successfully ]
+[2025-01-12 21:24:43,986: INFO : common : yaml file: config\config.yaml loaded successfully ]
+[2025-01-12 21:24:43,990: INFO : common : yaml file: params.yaml loaded successfully ]
+[2025-01-12 21:24:43,994: INFO : common : Directory: artifacts/prepare_callback/checkpoint_dir created successfully ]
+[2025-01-12 21:24:43,997: INFO : common : Directory: artifacts/prepare_callback/checkpoint_dir/model.keras created successfully ]
+[2025-01-12 21:24:44,005: INFO : common : Directory: artifacts\training created successfully ]
+[2025-01-12 21:25:14,699: INFO : common : yaml file: config\config.yaml loaded successfully ]
+[2025-01-12 21:25:14,702: INFO : common : yaml file: params.yaml loaded successfully ]
+[2025-01-12 21:25:14,704: INFO : common : Directory: artifacts/prepare_callback/checkpoint_dir created successfully ]
+[2025-01-12 21:25:14,706: INFO : common : Directory: artifacts/prepare_callback/checkpoint_dir/model.keras created successfully ]
+[2025-01-12 21:25:14,708: INFO : common : Directory: artifacts\training created successfully ]
+[2025-01-12 21:26:23,979: INFO : common : yaml file: config\config.yaml loaded successfully ]
+[2025-01-12 21:26:23,983: INFO : common : yaml file: params.yaml loaded successfully ]
+[2025-01-12 21:26:23,986: INFO : common : Directory: artifacts/prepare_callback/checkpoint_dir created successfully ]
+[2025-01-12 21:26:23,988: INFO : common : Directory: artifacts/prepare_callback/checkpoint_dir/model.keras created successfully ]
+[2025-01-12 21:26:23,993: INFO : common : Directory: artifacts\training created successfully ]
+[2025-01-12 21:27:01,226: INFO : common : yaml file: config\config.yaml loaded successfully ]
+[2025-01-12 21:27:01,230: INFO : common : yaml file: params.yaml loaded successfully ]
+[2025-01-12 21:27:01,233: INFO : common : Directory: artifacts/prepare_callback/checkpoint_dir created successfully ]
+[2025-01-12 21:27:01,234: INFO : common : Directory: artifacts/prepare_callback/checkpoint_dir/model.keras created successfully ]
+[2025-01-12 21:27:01,236: INFO : common : Directory: artifacts\training created successfully ]
+[2025-01-13 00:12:04,625: INFO : main : >>>>> satge Data Ingestion Stage started  ]
+[2025-01-13 00:12:04,628: INFO : common : yaml file: config\config.yaml loaded successfully ]
+[2025-01-13 00:12:04,630: INFO : common : yaml file: params.yaml loaded successfully ]
+[2025-01-13 00:12:04,630: INFO : common : Directory: artifacts created successfully ]
+[2025-01-13 00:12:04,631: INFO : common : Directory: artifacts/data_ingestion created successfully ]
+[2025-01-13 00:12:09,971: INFO : data_ingestion : artifacts\data_ingestion\data.zip downloaded with the following info: 
+Connection: close
+Content-Length: 11616915
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "adf745abc03891fe493c3be264ec012691fe3fa21d861f35a27edbe6d86a76b1"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: BAD4:39EB2D:2F50F2:475588:67840CFE
+Accept-Ranges: bytes
+Date: Sun, 12 Jan 2025 18:42:07 GMT
+Via: 1.1 varnish
+X-Served-By: cache-del21743-DEL
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1736707326.296894,VS0,VE1140
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 5cd67a6ccb7faba0b93e6d76da2e33f92e1969bf
+Expires: Sun, 12 Jan 2025 18:47:07 GMT
+Source-Age: 1
+
+ ]
+[2025-01-13 00:12:10,334: INFO : data_ingestion : Zip file extracted to : artifacts/data_ingestion/ ]
+[2025-01-13 00:12:10,335: INFO : main : >>>>> satge Data Ingestion Stage completed  ]
+[2025-01-13 00:12:10,335: INFO : main : >>>>> satge preparing base models started  ]
+[2025-01-13 00:12:10,338: INFO : common : yaml file: config\config.yaml loaded successfully ]
+[2025-01-13 00:12:10,341: INFO : common : yaml file: params.yaml loaded successfully ]
+[2025-01-13 00:12:10,342: INFO : common : Directory: artifacts created successfully ]
+[2025-01-13 00:12:10,345: INFO : common : Directory: artifacts/prepare_base_model created successfully ]
+[2025-01-13 00:12:11,847: INFO : main : >>>>> satge preparing base models completed  ]
+[2025-01-13 00:13:22,714: INFO : common : yaml file: config\config.yaml loaded successfully ]
+[2025-01-13 00:13:22,720: INFO : common : yaml file: params.yaml loaded successfully ]
+[2025-01-13 00:13:22,723: INFO : common : Directory: artifacts/prepare_callback/checkpoint_dir created successfully ]
+[2025-01-13 00:13:22,726: INFO : common : Directory: artifacts/prepare_callback/checkpoint_dir/model.keras created successfully ]
+[2025-01-13 00:13:22,729: INFO : common : Directory: artifacts\training created successfully ]
+[2025-01-13 00:23:39,719: INFO : common : yaml file: config\config.yaml loaded successfully ]
+[2025-01-13 00:23:39,730: INFO : common : yaml file: params.yaml loaded successfully ]
+[2025-01-13 00:23:39,737: INFO : common : Directory: artifacts/prepare_callback/checkpoint_dir created successfully ]
+[2025-01-13 00:23:39,740: INFO : common : Directory: artifacts/prepare_callback/checkpoint_dir/model.keras created successfully ]
+[2025-01-13 00:23:39,753: INFO : common : Directory: artifacts\training created successfully ]
+[2025-01-13 02:11:18,915: INFO : common : yaml file: config\config.yaml loaded successfully ]
+[2025-01-13 02:11:18,921: INFO : common : yaml file: params.yaml loaded successfully ]
+[2025-01-13 02:11:18,924: INFO : common : Directory: artifacts/prepare_callback/checkpoint_dir created successfully ]
+[2025-01-13 02:11:18,925: INFO : common : Directory: artifacts/prepare_callback/checkpoint_dir/model.keras created successfully ]
+[2025-01-13 02:11:18,929: INFO : common : Directory: artifacts\training created successfully ]
+[2025-01-13 02:32:34,331: INFO : common : yaml file: config\config.yaml loaded successfully ]
+[2025-01-13 02:32:34,336: INFO : common : yaml file: params.yaml loaded successfully ]
+[2025-01-13 02:32:34,341: INFO : common : Directory: artifacts/prepare_callback/checkpoint_dir created successfully ]
+[2025-01-13 02:32:34,344: INFO : common : Directory: artifacts\training created successfully ]
+[2025-01-13 02:34:29,900: INFO : common : yaml file: config\config.yaml loaded successfully ]
+[2025-01-13 02:34:29,905: INFO : common : yaml file: params.yaml loaded successfully ]
+[2025-01-13 02:34:29,909: INFO : common : Directory: artifacts/prepare_callback/checkpoint_dir created successfully ]
+[2025-01-13 02:34:29,914: INFO : common : Directory: artifacts\training created successfully ]
+[2025-01-15 21:58:18,340: INFO : main : >>>>> satge Data Ingestion Stage started  ]
+[2025-01-15 21:58:18,345: INFO : common : yaml file: config\config.yaml loaded successfully ]
+[2025-01-15 21:58:18,348: INFO : common : yaml file: params.yaml loaded successfully ]
+[2025-01-15 21:58:18,348: INFO : common : Directory: artifacts created successfully ]
+[2025-01-15 21:58:18,349: INFO : common : Directory: artifacts/data_ingestion created successfully ]
+[2025-01-15 21:58:23,777: INFO : data_ingestion : artifacts\data_ingestion\data.zip downloaded with the following info: 
+Connection: close
+Content-Length: 11616915
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "adf745abc03891fe493c3be264ec012691fe3fa21d861f35a27edbe6d86a76b1"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 7595:2DD23B:126D8:195C1:6787E224
+Accept-Ranges: bytes
+Date: Wed, 15 Jan 2025 16:28:21 GMT
+Via: 1.1 varnish
+X-Served-By: cache-del21728-DEL
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1736958500.464567,VS0,VE935
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: d4272fb21efaa28ed8eabfbb8360daa897113b07
+Expires: Wed, 15 Jan 2025 16:33:21 GMT
+Source-Age: 1
+
+ ]
+[2025-01-15 21:58:24,212: INFO : data_ingestion : Zip file extracted to : artifacts/data_ingestion/ ]
+[2025-01-15 21:58:24,212: INFO : main : >>>>> satge Data Ingestion Stage completed  ]
+[2025-01-15 21:58:24,212: INFO : main : >>>>> satge preparing base models started  ]
+[2025-01-15 21:58:24,215: INFO : common : yaml file: config\config.yaml loaded successfully ]
+[2025-01-15 21:58:24,217: INFO : common : yaml file: params.yaml loaded successfully ]
+[2025-01-15 21:58:24,218: INFO : common : Directory: artifacts created successfully ]
+[2025-01-15 21:58:24,219: INFO : common : Directory: artifacts/prepare_base_model created successfully ]
+[2025-01-15 21:58:26,161: INFO : main : >>>>> satge preparing base models completed  ]
+[2025-01-15 21:58:26,162: INFO : main : >>>>> satge Training started  ]
+[2025-01-15 21:58:26,167: INFO : common : yaml file: config\config.yaml loaded successfully ]
+[2025-01-15 21:58:26,169: INFO : common : yaml file: params.yaml loaded successfully ]
+[2025-01-15 21:58:26,170: INFO : common : Directory: artifacts created successfully ]
+[2025-01-15 21:58:26,172: INFO : common : Directory: artifacts/prepare_callback/checkpoint_dir created successfully ]
+[2025-01-15 21:58:26,173: INFO : common : Directory: artifacts/prepare_callback/checkpoint_dir/model.keras created successfully ]
+[2025-01-15 21:58:26,173: INFO : common : Directory: artifacts\training created successfully ]
+[2025-01-15 21:59:02,300: ERROR : main : [Errno 13] Permission denied: 'artifacts\\prepare_callback\\checkpoint_dir\\model.keras' ]
+Traceback (most recent call last):
+  File "C:\Users\jhasu\OneDrive\Desktop\chickenclassifier\chickendisease_classification\main.py", line 37, in <module>
+    obj.main()
+  File "C:\Users\jhasu\OneDrive\Desktop\chickenclassifier\chickendisease_classification\src\cnnClassifier\pipeline\stage_03_training.py", line 22, in main
+    training.train(callback_list= callback_list)
+  File "C:\Users\jhasu\OneDrive\Desktop\chickenclassifier\chickendisease_classification\src\cnnClassifier\components\training.py", line 68, in train
+    self.model.fit(
+  File "C:\Users\jhasu\anaconda3\envs\cenv\Lib\site-packages\keras\src\utils\traceback_utils.py", line 122, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "C:\Users\jhasu\anaconda3\envs\cenv\Lib\site-packages\keras\src\saving\saving_lib.py", line 143, in save_model
+    with open(filepath, "wb") as f:
+         ^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: 'artifacts\\prepare_callback\\checkpoint_dir\\model.keras'
+[2025-01-16 01:44:30,462: INFO : common : yaml file: config\config.yaml loaded successfully ]
+[2025-01-16 01:44:30,466: INFO : common : yaml file: params.yaml loaded successfully ]
+[2025-01-16 01:44:30,469: INFO : common : Directory: artifacts/prepare_callback/checkpoint_dir created successfully ]
+[2025-01-16 01:44:30,471: INFO : common : Directory: artifacts\training created successfully ]
+[2025-01-16 01:47:16,362: INFO : common : yaml file: config\config.yaml loaded successfully ]
+[2025-01-16 01:47:16,367: INFO : common : yaml file: params.yaml loaded successfully ]
+[2025-01-16 01:47:16,367: INFO : common : Directory: artifacts/prepare_callback/checkpoint_dir created successfully ]
+[2025-01-16 01:47:16,374: INFO : common : Directory: artifacts\training created successfully ]
+[2025-01-16 01:48:36,438: INFO : common : yaml file: config\config.yaml loaded successfully ]
+[2025-01-16 01:48:36,443: INFO : common : yaml file: params.yaml loaded successfully ]
+[2025-01-16 01:48:36,445: INFO : common : Directory: artifacts/prepare_callback/checkpoint_dir created successfully ]
+[2025-01-16 01:48:36,449: INFO : common : Directory: artifacts\training created successfully ]
+[2025-01-16 01:50:06,529: INFO : main : >>>>> satge Data Ingestion Stage started  ]
+[2025-01-16 01:50:06,529: INFO : common : yaml file: config\config.yaml loaded successfully ]
+[2025-01-16 01:50:06,529: INFO : common : yaml file: params.yaml loaded successfully ]
+[2025-01-16 01:50:06,529: INFO : common : Directory: artifacts created successfully ]
+[2025-01-16 01:50:06,529: INFO : common : Directory: artifacts/data_ingestion created successfully ]
+[2025-01-16 02:00:37,249: INFO : main : >>>>> satge Data Ingestion Stage started  ]
+[2025-01-16 02:00:37,249: INFO : common : yaml file: config\config.yaml loaded successfully ]
+[2025-01-16 02:00:37,249: INFO : common : yaml file: params.yaml loaded successfully ]
+[2025-01-16 02:00:37,249: INFO : common : Directory: artifacts created successfully ]
+[2025-01-16 02:00:37,249: INFO : common : Directory: artifacts/data_ingestion created successfully ]
+[2025-01-16 02:00:41,451: INFO : data_ingestion : artifacts\data_ingestion\data.zip downloaded with the following info: 
+Connection: close
+Content-Length: 11616915
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "adf745abc03891fe493c3be264ec012691fe3fa21d861f35a27edbe6d86a76b1"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: BBE1:3659D9:196A52:244576:6788186C
+Accept-Ranges: bytes
+Date: Wed, 15 Jan 2025 20:30:39 GMT
+Via: 1.1 varnish
+X-Served-By: cache-del21723-DEL
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1736973039.894529,VS0,VE362
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 1300ad978d275e90479abbfac1de3b03f13d470e
+Expires: Wed, 15 Jan 2025 20:35:39 GMT
+Source-Age: 0
+
+ ]
+[2025-01-16 02:00:42,446: INFO : data_ingestion : Zip file extracted to : artifacts/data_ingestion/ ]
+[2025-01-16 02:00:42,447: INFO : main : >>>>> satge Data Ingestion Stage completed  ]
+[2025-01-16 02:00:42,448: INFO : main : >>>>> satge preparing base models started  ]
+[2025-01-16 02:00:42,451: INFO : common : yaml file: config\config.yaml loaded successfully ]
+[2025-01-16 02:00:42,451: INFO : common : yaml file: params.yaml loaded successfully ]
+[2025-01-16 02:00:42,451: INFO : common : Directory: artifacts created successfully ]
+[2025-01-16 02:00:42,466: INFO : common : Directory: artifacts/prepare_base_model created successfully ]
+[2025-01-16 02:00:45,486: INFO : main : >>>>> satge preparing base models completed  ]
+[2025-01-16 02:00:45,486: INFO : main : >>>>> satge Training started  ]
+[2025-01-16 02:00:45,488: INFO : common : yaml file: config\config.yaml loaded successfully ]
+[2025-01-16 02:00:45,488: INFO : common : yaml file: params.yaml loaded successfully ]
+[2025-01-16 02:00:45,488: INFO : common : Directory: artifacts created successfully ]
+[2025-01-16 02:00:45,488: INFO : common : Directory: artifacts/prepare_callback/checkpoint_dir created successfully ]
+[2025-01-16 02:00:45,504: INFO : common : Directory: artifacts/prepare_callback/checkpoint_dir/model.keras created successfully ]
+[2025-01-16 02:00:45,507: INFO : common : Directory: artifacts\training created successfully ]
+[2025-01-16 02:01:54,648: ERROR : main : [Errno 13] Permission denied: 'artifacts\\prepare_callback\\checkpoint_dir\\model.keras' ]
+Traceback (most recent call last):
+  File "C:\Users\jhasu\OneDrive\Desktop\chickenclassifier\chickendisease_classification\main.py", line 37, in <module>
+    obj.main()
+  File "C:\Users\jhasu\OneDrive\Desktop\chickenclassifier\chickendisease_classification\src\cnnClassifier\pipeline\stage_03_training.py", line 22, in main
+    training.train(callback_list= callback_list)
+  File "C:\Users\jhasu\OneDrive\Desktop\chickenclassifier\chickendisease_classification\src\cnnClassifier\components\training.py", line 68, in train
+    self.model.fit(
+  File "C:\Users\jhasu\anaconda3\envs\cenv\Lib\site-packages\keras\src\utils\traceback_utils.py", line 122, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "C:\Users\jhasu\anaconda3\envs\cenv\Lib\site-packages\keras\src\saving\saving_lib.py", line 143, in save_model
+    with open(filepath, "wb") as f:
+         ^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: 'artifacts\\prepare_callback\\checkpoint_dir\\model.keras'
+[2025-01-16 02:03:02,066: INFO : common : yaml file: config\config.yaml loaded successfully ]
+[2025-01-16 02:03:02,073: INFO : common : yaml file: params.yaml loaded successfully ]
+[2025-01-16 02:03:02,076: INFO : common : Directory: artifacts/prepare_callback/checkpoint_dir created successfully ]
+[2025-01-16 02:03:02,110: INFO : common : Directory: artifacts\training created successfully ]
+[2025-01-16 02:07:20,831: INFO : main : >>>>> satge Data Ingestion Stage started  ]
+[2025-01-16 02:07:20,831: INFO : common : yaml file: config\config.yaml loaded successfully ]
+[2025-01-16 02:07:20,831: INFO : common : yaml file: params.yaml loaded successfully ]
+[2025-01-16 02:07:20,831: INFO : common : Directory: artifacts created successfully ]
+[2025-01-16 02:07:20,831: INFO : common : Directory: artifacts/data_ingestion created successfully ]
+[2025-01-16 02:07:25,107: INFO : data_ingestion : artifacts\data_ingestion\data.zip downloaded with the following info: 
+Connection: close
+Content-Length: 11616915
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "adf745abc03891fe493c3be264ec012691fe3fa21d861f35a27edbe6d86a76b1"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: BBE1:3659D9:196A52:244576:6788186C
+Accept-Ranges: bytes
+Date: Wed, 15 Jan 2025 20:37:22 GMT
+Via: 1.1 varnish
+X-Served-By: cache-del21725-DEL
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1736973443.510946,VS0,VE313
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: d0e93fac5791b043d8d9701e757ecf5b195ded21
+Expires: Wed, 15 Jan 2025 20:42:22 GMT
+Source-Age: 0
+
+ ]
+[2025-01-16 02:07:26,148: INFO : data_ingestion : Zip file extracted to : artifacts/data_ingestion/ ]
+[2025-01-16 02:07:26,149: INFO : main : >>>>> satge Data Ingestion Stage completed  ]
+[2025-01-16 02:07:26,149: INFO : main : >>>>> satge preparing base models started  ]
+[2025-01-16 02:07:26,155: INFO : common : yaml file: config\config.yaml loaded successfully ]
+[2025-01-16 02:07:26,161: INFO : common : yaml file: params.yaml loaded successfully ]
+[2025-01-16 02:07:26,161: INFO : common : Directory: artifacts created successfully ]
+[2025-01-16 02:07:26,161: INFO : common : Directory: artifacts/prepare_base_model created successfully ]
+[2025-01-16 02:07:28,785: INFO : main : >>>>> satge preparing base models completed  ]
+[2025-01-16 02:07:28,785: INFO : main : >>>>> satge Training started  ]
+[2025-01-16 02:07:28,798: INFO : common : yaml file: config\config.yaml loaded successfully ]
+[2025-01-16 02:07:28,800: INFO : common : yaml file: params.yaml loaded successfully ]
+[2025-01-16 02:07:28,801: INFO : common : Directory: artifacts created successfully ]
+[2025-01-16 02:07:28,804: INFO : common : Directory: artifacts/prepare_callback/checkpoint_dir created successfully ]
+[2025-01-16 02:07:28,804: INFO : common : Directory: artifacts\training created successfully ]
+[2025-01-16 02:08:40,929: INFO : main : >>>>> satge Training completed  ]

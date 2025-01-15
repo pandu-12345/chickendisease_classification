@@ -1,17 +1,17 @@
 
 from  src.cnnClassifier.loggs import  logger
-from  src.cnnClassifier.config.configuration import  DataIngestionConfigurationManager
+from  src.cnnClassifier.config.configuration import ConfigurationManager
 from  src.cnnClassifier.entity.config_entity import  DataIngestionConfig
 from src.cnnClassifier.components.data_ingestion import DataIngestion
 
 STAGE_NAME = "Data Ingestion Stage"
 
-class DataIngestionTrainingPipline:
+class DataIngestionTrainingPipeline:
     def __init__(self):
         pass
 
     def main(self):
-        config= DataIngestionConfigurationManager()
+        config= ConfigurationManager()
         data_config=  config.get_data_ingestion_configuration()
         data_ingestion= DataIngestion(data_config)
         data_ingestion.download_data()
@@ -22,7 +22,7 @@ class DataIngestionTrainingPipline:
 if __name__ == '__main__':
     try:
         logger.info(f">>>>> satge {STAGE_NAME} started ")
-        obj= DataIngestionTrainingPipline()
+        obj= DataIngestionTrainingPipeline()
         obj.main()
         logger.info(f">>>>> satge {STAGE_NAME} completed ")
     except Exception as e:

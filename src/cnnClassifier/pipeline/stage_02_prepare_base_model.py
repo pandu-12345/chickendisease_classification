@@ -1,5 +1,5 @@
 from  src.cnnClassifier.loggs import  logger
-from  src.cnnClassifier.config.configuration import  ModelconfigurationManager
+from  src.cnnClassifier.config.configuration import  ConfigurationManager
 from  src.cnnClassifier.entity.config_entity import  PrepareBaseModelConfig
 from src.cnnClassifier.components.models import PrepareBaseModel
 
@@ -8,12 +8,12 @@ from src.cnnClassifier.components.models import PrepareBaseModel
 
 STAGE_NAME = "preparing base models"
 
-class ModelPreparingPipline:
+class ModelPreparingPipeline:
     def __init__(self):
         pass
 
     def main(self):
-        configmanager=ModelconfigurationManager()
+        configmanager=ConfigurationManager()
         prepare_base_model_config=configmanager.get_prepare_base_model_config()
         prepare_base_model=PrepareBaseModel(prepare_base_model_config)
         prepare_base_model.get_base_model()
@@ -24,7 +24,7 @@ class ModelPreparingPipline:
 if __name__ == '__main__':
     try:
         logger.info(f">>>>> satge {STAGE_NAME} started ")
-        obj= ModelPreparingPipline()
+        obj= ModelPreparingPipeline()
         obj.main()
         logger.info(f">>>>> satge {STAGE_NAME} completed ")
     except Exception as e:

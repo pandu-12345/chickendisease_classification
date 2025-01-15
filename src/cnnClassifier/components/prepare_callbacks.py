@@ -12,7 +12,7 @@ class preparecallback:
 
     @property
     def _create_tb_callbacks(self):
-        timestamp= time.strftime("%Y-%m-%d-%H-%M-%s")
+        timestamp= time.strftime("%Y-%m-%d-%H-%M-%S")
         tb_ruuning_log_dir= os.path.join(
             self.config.tensorboard_root_log_dir, 
             f"ruuning_logs_at_{timestamp}",)
