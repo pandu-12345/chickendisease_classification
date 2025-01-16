@@ -1,7 +1,7 @@
 import os
 from src.cnnClassifier.constants import *
 from src.cnnClassifier.utils.common import read_yaml,create_directory
-from src.cnnClassifier.entity.config_entity import (CallBackConfig, DataIngestionConfig, ModelTrainingConfig,PrepareBaseModelConfig)
+from src.cnnClassifier.entity.config_entity import (CallBackConfig, DataIngestionConfig, Evaluationconfig, ModelTrainingConfig,PrepareBaseModelConfig)
 
 
 class ConfigurationManager:
@@ -76,6 +76,20 @@ class ConfigurationManager:
             params_batch_size=params.BATCH_SIZE
         )
         return model_trainig_config
+    
+
+    def get_evaluation_configuration(self)->Evaluationconfig:
+        config=self.config.data_ingestion
+        create_directory([config.root_dir])
+        evaluation_config= Evaluationconfig(
+           path_of_model= Path("artifacts/training/model.keras"),
+           training_data= Path("artifacts/data_ingestion/Chicken-fecal-images"),
+           all_params= self.param,
+           params_image_size=self.param.IMAGE_SIZE,
+           params_batch_size=self.param.BATCH_SIZE,
+            )
+
+        return evaluation_config
     
     
 
