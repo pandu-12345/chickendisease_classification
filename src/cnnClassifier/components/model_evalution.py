@@ -46,6 +46,6 @@ class Evaluation:
             "loss": self.score[0],
             "accuracy": self.score[1]
         }
-        save_jason(path= Path("score.jason"), data= scores)
+        save_jason(path= Path("scores.json"), data= scores)
 
 

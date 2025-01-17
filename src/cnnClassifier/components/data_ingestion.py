@@ -1,10 +1,10 @@
 import os
 from urllib.request import urlretrieve
-from  src.cnnClassifier.utils.common import get_sizes
-from  src.cnnClassifier.loggs import  logger
+from  cnnClassifier.utils.common import get_sizes
+from  cnnClassifier.loggs import  logger
 import zipfile
 from pathlib import Path
-from src.cnnClassifier.entity.config_entity import DataIngestionConfig
+from cnnClassifier.entity.config_entity import DataIngestionConfig
 
 class DataIngestion:
     def __init__(self, config:DataIngestionConfig):

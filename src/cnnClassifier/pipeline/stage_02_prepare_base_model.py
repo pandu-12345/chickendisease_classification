@@ -1,7 +1,7 @@
-from  src.cnnClassifier.loggs import  logger
-from  src.cnnClassifier.config.configuration import  ConfigurationManager
-from  src.cnnClassifier.entity.config_entity import  PrepareBaseModelConfig
-from src.cnnClassifier.components.models import PrepareBaseModel
+from  cnnClassifier.loggs import  logger
+from  cnnClassifier.config.configuration import  ConfigurationManager
+from  cnnClassifier.entity.config_entity import  PrepareBaseModelConfig
+from cnnClassifier.components.models import PrepareBaseModel
 
 
 

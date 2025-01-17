@@ -1,5 +1,5 @@
 import os
-from src.cnnClassifier.loggs import logger
+from cnnClassifier.loggs import logger
 import json
 import joblib
 from pathlib import Path

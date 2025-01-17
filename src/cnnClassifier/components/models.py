@@ -1,9 +1,9 @@
 import os
 import urllib.request as request
 import tensorflow as tf
-from  src.cnnClassifier.loggs import  logger
+from  cnnClassifier.loggs import  logger
 from pathlib import Path
-from src.cnnClassifier.entity.config_entity import PrepareBaseModelConfig
+from cnnClassifier.entity.config_entity import PrepareBaseModelConfig
 
 
 

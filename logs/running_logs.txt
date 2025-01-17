@@ -654,3 +654,173 @@ Source-Age: 1
 [2025-01-16 19:34:44,065: INFO : common : Directory: artifacts/data_ingestion created successfully ]
 [2025-01-16 19:35:09,596: INFO : common : Jason file: score.jason saved successfully ]
 [2025-01-16 19:35:09,596: INFO : main : >>>>> satge Model EVALUATION completed  ]
+[2025-01-16 21:10:38,224: INFO : main : >>>>> satge Data Ingestion Stage started  ]
+[2025-01-16 21:10:38,226: INFO : common : yaml file: config\config.yaml loaded successfully ]
+[2025-01-16 21:10:38,226: INFO : common : yaml file: params.yaml loaded successfully ]
+[2025-01-16 21:10:38,226: INFO : common : Directory: artifacts created successfully ]
+[2025-01-16 21:10:38,226: INFO : common : Directory: artifacts/data_ingestion created successfully ]
+[2025-01-16 21:10:54,355: INFO : data_ingestion : artifacts\data_ingestion\data.zip downloaded with the following info: 
+Connection: close
+Content-Length: 11616915
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "adf745abc03891fe493c3be264ec012691fe3fa21d861f35a27edbe6d86a76b1"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 28C4:1B6AD8:2CE2F:3B13A:67892877
+Accept-Ranges: bytes
+Date: Thu, 16 Jan 2025 15:40:40 GMT
+Via: 1.1 varnish
+X-Served-By: cache-del21741-DEL
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1737042040.799365,VS0,VE941
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 25786464f41a5e3c7448107aa54a52594104c5be
+Expires: Thu, 16 Jan 2025 15:45:40 GMT
+Source-Age: 1
+
+ ]
+[2025-01-16 21:10:54,700: INFO : data_ingestion : Zip file extracted to : artifacts/data_ingestion/ ]
+[2025-01-16 21:10:54,704: INFO : main : >>>>> satge Data Ingestion Stage completed  ]
+[2025-01-16 21:10:54,709: INFO : main : >>>>> satge preparing base models started  ]
+[2025-01-16 21:10:54,715: INFO : common : yaml file: config\config.yaml loaded successfully ]
+[2025-01-16 21:10:54,721: INFO : common : yaml file: params.yaml loaded successfully ]
+[2025-01-16 21:10:54,725: INFO : common : Directory: artifacts created successfully ]
+[2025-01-16 21:10:54,731: INFO : common : Directory: artifacts/prepare_base_model created successfully ]
+[2025-01-16 21:10:56,497: INFO : main : >>>>> satge preparing base models completed  ]
+[2025-01-16 21:10:56,497: INFO : main : >>>>> satge Training started  ]
+[2025-01-16 21:10:56,497: INFO : common : yaml file: config\config.yaml loaded successfully ]
+[2025-01-16 21:10:56,497: INFO : common : yaml file: params.yaml loaded successfully ]
+[2025-01-16 21:10:56,497: INFO : common : Directory: artifacts created successfully ]
+[2025-01-16 21:10:56,497: INFO : common : Directory: artifacts/prepare_callback/checkpoint_dir created successfully ]
+[2025-01-16 21:10:56,508: INFO : common : Directory: artifacts\training created successfully ]
+[2025-01-16 21:11:30,914: INFO : main : >>>>> satge Training completed  ]
+[2025-01-16 21:11:30,915: INFO : main : >>>>> satge Model EVALUATION started  ]
+[2025-01-16 21:11:30,920: INFO : common : yaml file: config\config.yaml loaded successfully ]
+[2025-01-16 21:11:30,922: INFO : common : yaml file: params.yaml loaded successfully ]
+[2025-01-16 21:11:30,922: INFO : common : Directory: artifacts created successfully ]
+[2025-01-16 21:11:30,924: INFO : common : Directory: artifacts/data_ingestion created successfully ]
+[2025-01-16 21:11:41,718: INFO : common : Jason file: score.jason saved successfully ]
+[2025-01-16 21:11:41,724: INFO : main : >>>>> satge Model EVALUATION completed  ]
+[2025-01-16 22:21:02,787: INFO : stage_01_data_ingestion : >>>>> satge Data Ingestion Stage started  ]
+[2025-01-16 22:21:02,787: INFO : common : yaml file: config\config.yaml loaded successfully ]
+[2025-01-16 22:21:02,787: INFO : common : yaml file: params.yaml loaded successfully ]
+[2025-01-16 22:21:02,787: INFO : common : Directory: artifacts created successfully ]
+[2025-01-16 22:21:02,804: INFO : common : Directory: artifacts/data_ingestion created successfully ]
+[2025-01-16 22:21:13,980: INFO : data_ingestion : artifacts\data_ingestion\data.zip downloaded with the following info: 
+Connection: close
+Content-Length: 11616915
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "adf745abc03891fe493c3be264ec012691fe3fa21d861f35a27edbe6d86a76b1"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 28C4:1B6AD8:2CE2F:3B13A:67892877
+Accept-Ranges: bytes
+Date: Thu, 16 Jan 2025 16:51:04 GMT
+Via: 1.1 varnish
+X-Served-By: cache-del21743-DEL
+X-Cache: HIT
+X-Cache-Hits: 1
+X-Timer: S1737046264.493891,VS0,VE340
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 557874ba836da2c1be0787203b3d7cce829650fb
+Expires: Thu, 16 Jan 2025 16:56:04 GMT
+Source-Age: 0
+
+ ]
+[2025-01-16 22:21:14,344: INFO : data_ingestion : Zip file extracted to : artifacts/data_ingestion/ ]
+[2025-01-16 22:21:14,344: INFO : stage_01_data_ingestion : >>>>> satge Data Ingestion Stage completed  ]
+[2025-01-16 22:25:02,524: INFO : stage_01_data_ingestion : >>>>> satge Data Ingestion Stage started  ]
+[2025-01-16 22:25:02,524: INFO : common : yaml file: config\config.yaml loaded successfully ]
+[2025-01-16 22:25:02,524: INFO : common : yaml file: params.yaml loaded successfully ]
+[2025-01-16 22:25:02,524: INFO : common : Directory: artifacts created successfully ]
+[2025-01-16 22:25:02,524: INFO : common : Directory: artifacts/data_ingestion created successfully ]
+[2025-01-16 22:25:16,456: INFO : data_ingestion : artifacts\data_ingestion\data.zip downloaded with the following info: 
+Connection: close
+Content-Length: 11616915
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "adf745abc03891fe493c3be264ec012691fe3fa21d861f35a27edbe6d86a76b1"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 28C4:1B6AD8:2CE2F:3B13A:67892877
+Accept-Ranges: bytes
+Date: Thu, 16 Jan 2025 16:55:04 GMT
+Via: 1.1 varnish
+X-Served-By: cache-del21721-DEL
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1737046504.040699,VS0,VE1
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: cd9642e73c60026745b6d32e10ec26fa86eaa8bf
+Expires: Thu, 16 Jan 2025 17:00:04 GMT
+Source-Age: 239
+
+ ]
+[2025-01-16 22:25:16,831: INFO : data_ingestion : Zip file extracted to : artifacts/data_ingestion/ ]
+[2025-01-16 22:25:16,831: INFO : stage_01_data_ingestion : >>>>> satge Data Ingestion Stage completed  ]
+[2025-01-16 22:28:02,273: INFO : stage_02_prepare_base_model : >>>>> satge preparing base models started  ]
+[2025-01-16 22:28:02,273: INFO : common : yaml file: config\config.yaml loaded successfully ]
+[2025-01-16 22:28:02,280: INFO : common : yaml file: params.yaml loaded successfully ]
+[2025-01-16 22:28:02,280: INFO : common : Directory: artifacts created successfully ]
+[2025-01-16 22:28:02,280: INFO : common : Directory: artifacts/prepare_base_model created successfully ]
+[2025-01-16 22:28:03,502: INFO : stage_02_prepare_base_model : >>>>> satge preparing base models completed  ]
+[2025-01-16 22:29:49,065: INFO : stage_03_training : >>>>> satge Training started  ]
+[2025-01-16 22:29:49,075: INFO : common : yaml file: config\config.yaml loaded successfully ]
+[2025-01-16 22:29:49,075: INFO : common : yaml file: params.yaml loaded successfully ]
+[2025-01-16 22:29:49,075: INFO : common : Directory: artifacts created successfully ]
+[2025-01-16 22:29:49,075: INFO : common : Directory: artifacts/prepare_callback/checkpoint_dir created successfully ]
+[2025-01-16 22:29:49,075: INFO : common : Directory: artifacts\training created successfully ]
+[2025-01-16 22:30:21,257: INFO : stage_03_training : >>>>> satge Training completed  ]
+[2025-01-16 22:30:49,916: INFO : stage_04_model_evaluation : >>>>> satge Model EVALUATION started  ]
+[2025-01-16 22:30:49,916: INFO : common : yaml file: config\config.yaml loaded successfully ]
+[2025-01-16 22:30:49,916: INFO : common : yaml file: params.yaml loaded successfully ]
+[2025-01-16 22:30:49,916: INFO : common : Directory: artifacts created successfully ]
+[2025-01-16 22:30:49,916: INFO : common : Directory: artifacts/data_ingestion created successfully ]
+[2025-01-16 22:30:58,810: INFO : common : Jason file: score.jason saved successfully ]
+[2025-01-16 22:30:58,810: INFO : stage_04_model_evaluation : >>>>> satge Model EVALUATION completed  ]
+[2025-01-16 22:31:35,132: INFO : stage_04_model_evaluation : >>>>> satge Model EVALUATION started  ]
+[2025-01-16 22:31:35,132: INFO : common : yaml file: config\config.yaml loaded successfully ]
+[2025-01-16 22:31:35,132: INFO : common : yaml file: params.yaml loaded successfully ]
+[2025-01-16 22:31:35,132: INFO : common : Directory: artifacts created successfully ]
+[2025-01-16 22:31:35,132: INFO : common : Directory: artifacts/data_ingestion created successfully ]
+[2025-01-16 22:31:44,147: INFO : common : Jason file: score.jason saved successfully ]
+[2025-01-16 22:31:44,147: INFO : stage_04_model_evaluation : >>>>> satge Model EVALUATION completed  ]
+[2025-01-16 22:34:17,246: INFO : stage_04_model_evaluation : >>>>> satge Model EVALUATION started  ]
+[2025-01-16 22:34:17,246: INFO : common : yaml file: config\config.yaml loaded successfully ]
+[2025-01-16 22:34:17,246: INFO : common : yaml file: params.yaml loaded successfully ]
+[2025-01-16 22:34:17,246: INFO : common : Directory: artifacts created successfully ]
+[2025-01-16 22:34:17,252: INFO : common : Directory: artifacts/data_ingestion created successfully ]
+[2025-01-16 22:34:26,436: INFO : common : Jason file: score.jason saved successfully ]
+[2025-01-16 22:34:26,436: INFO : stage_04_model_evaluation : >>>>> satge Model EVALUATION completed  ]
+[2025-01-16 22:36:32,528: INFO : stage_04_model_evaluation : >>>>> satge Model EVALUATION started  ]
+[2025-01-16 22:36:32,530: INFO : common : yaml file: config\config.yaml loaded successfully ]
+[2025-01-16 22:36:32,533: INFO : common : yaml file: params.yaml loaded successfully ]
+[2025-01-16 22:36:32,533: INFO : common : Directory: artifacts created successfully ]
+[2025-01-16 22:36:32,535: INFO : common : Directory: artifacts/data_ingestion created successfully ]
+[2025-01-16 22:36:44,585: INFO : common : Jason file: scores.jason saved successfully ]
+[2025-01-16 22:36:44,585: INFO : stage_04_model_evaluation : >>>>> satge Model EVALUATION completed  ]
+[2025-01-16 22:41:34,316: INFO : stage_04_model_evaluation : >>>>> satge Model EVALUATION started  ]
+[2025-01-16 22:41:34,320: INFO : common : yaml file: config\config.yaml loaded successfully ]
+[2025-01-16 22:41:34,321: INFO : common : yaml file: params.yaml loaded successfully ]
+[2025-01-16 22:41:34,323: INFO : common : Directory: artifacts created successfully ]
+[2025-01-16 22:41:34,323: INFO : common : Directory: artifacts/data_ingestion created successfully ]
+[2025-01-16 22:41:43,423: INFO : common : Jason file: scores.json saved successfully ]
+[2025-01-16 22:41:43,423: INFO : stage_04_model_evaluation : >>>>> satge Model EVALUATION completed  ]

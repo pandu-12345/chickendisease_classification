@@ -1,8 +1,25 @@
+"""import os
+import sys
 
-from  src.cnnClassifier.loggs import  logger
-from  src.cnnClassifier.config.configuration import ConfigurationManager
-from  src.cnnClassifier.entity.config_entity import  DataIngestionConfig
-from src.cnnClassifier.components.data_ingestion import DataIngestion
+# Set the working directory to the project root
+current_file_path = os.path.abspath(__file__)  # Path to this script
+project_root = os.path.abspath(os.path.join(os.path.dirname(current_file_path), "../../../.."))
+os.chdir(project_root)  # Change the working directory to the project root
+
+# Add project root to sys.path
+if project_root not in sys.path:
+    sys.path.insert(0, project_root)
+
+"""""
+import os
+
+
+print("Current Working Directory:", os.getcwd())
+
+from cnnClassifier.config.configuration import ConfigurationManager
+from cnnClassifier.components.data_ingestion import DataIngestion
+from cnnClassifier.loggs import logger
+
 
 STAGE_NAME = "Data Ingestion Stage"
 
