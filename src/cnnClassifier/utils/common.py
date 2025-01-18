@@ -65,3 +65,6 @@ def decodeImage(imagestring,filename):
 
 
 
+def encodeImageIntoBase64(croppedImagepath):
+    with open(croppedImagepath, "rb") as image_file:
+        return base64.b64encode(image_file.read())
