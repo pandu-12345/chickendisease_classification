@@ -58,7 +58,7 @@ def get_sizes(path:Path)->str:
     return f"{size_in_KB} KB"
 
 def decodeImage(imagestring,filename):
-    imgdata=base64.base64decode(imagestring)
+    imgdata=base64.b64decode(imagestring)
     with open(filename, 'wb') as f:
         f.write(imgdata)
         f.close()
