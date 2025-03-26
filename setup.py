@@ -9,7 +9,7 @@ __version__ = "0.0.0"
 REPO_NAME = "chickendisease_classification"
 AUTHOR_USER_NAME = "pandu-12345"
 SRC_REPO = "cnnClassifier"
-AUTHOR_EMAIL = "entbappy73@gmail.com"
+AUTHOR_EMAIL = "jhasudarshan889@gmail.com"
 
 
 setuptools.setup(

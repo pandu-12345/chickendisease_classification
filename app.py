@@ -47,4 +47,4 @@ def prediction():
 
 if __name__ == "__main__":
     clApp= clientapp()
-    app.run(host='0.0.0.0',port=8080,debug=True)
+    app.run(host='0.0.0.0',port=5000,debug=True)

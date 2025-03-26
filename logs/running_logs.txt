@@ -905,3 +905,92 @@ Source-Age: 239
 [2025-01-18 12:50:16,200: INFO : _internal :  * Debugger PIN: 119-450-917 ]
 [2025-01-18 12:50:26,167: INFO : _internal : 172.16.160.156 - - [18/Jan/2025 12:50:26] "GET / HTTP/1.1" 200 - ]
 [2025-01-18 12:50:37,799: INFO : _internal : 172.16.160.156 - - [18/Jan/2025 12:50:37] "POST /predict HTTP/1.1" 200 - ]
+[2025-03-26 10:35:52,115: INFO : _internal : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://172.16.160.156:8080 ]
+[2025-03-26 10:35:52,115: INFO : _internal : [33mPress CTRL+C to quit[0m ]
+[2025-03-26 10:35:52,121: INFO : _internal :  * Restarting with stat ]
+[2025-03-26 10:37:35,663: INFO : _internal : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://172.16.160.156:8080 ]
+[2025-03-26 10:37:35,663: INFO : _internal : [33mPress CTRL+C to quit[0m ]
+[2025-03-26 10:37:35,668: INFO : _internal :  * Restarting with stat ]
+[2025-03-26 10:37:44,873: WARNING : _internal :  * Debugger is active! ]
+[2025-03-26 10:37:44,887: INFO : _internal :  * Debugger PIN: 982-044-209 ]
+[2025-03-26 10:37:45,130: INFO : _internal : 127.0.0.1 - - [26/Mar/2025 10:37:45] "GET / HTTP/1.1" 200 - ]
+[2025-03-26 10:37:54,606: INFO : _internal : 127.0.0.1 - - [26/Mar/2025 10:37:54] "[35m[1mPOST /predict HTTP/1.1[0m" 500 - ]
+[2025-03-26 10:39:46,692: INFO : stage_01_data_ingestion : >>>>> satge Data Ingestion Stage started  ]
+[2025-03-26 10:39:46,700: INFO : common : yaml file: config\config.yaml loaded successfully ]
+[2025-03-26 10:39:46,700: INFO : common : yaml file: params.yaml loaded successfully ]
+[2025-03-26 10:39:46,705: INFO : common : Directory: artifacts created successfully ]
+[2025-03-26 10:39:46,705: INFO : common : Directory: artifacts/data_ingestion created successfully ]
+[2025-03-26 10:39:50,373: INFO : data_ingestion : artifacts\data_ingestion\data.zip downloaded with the following info: 
+Connection: close
+Content-Length: 11616915
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "adf745abc03891fe493c3be264ec012691fe3fa21d861f35a27edbe6d86a76b1"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 8E5C:190F65:26C04D:4D017B:67E38C1B
+Accept-Ranges: bytes
+Date: Wed, 26 Mar 2025 05:09:49 GMT
+Via: 1.1 varnish
+X-Served-By: cache-del21725-DEL
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1742965788.115475,VS0,VE934
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: af7e5e27c9e0ca6d42f4248808d4b98ab2b390d8
+Expires: Wed, 26 Mar 2025 05:14:49 GMT
+Source-Age: 1
+
+ ]
+[2025-03-26 10:39:50,826: INFO : data_ingestion : Zip file extracted to : artifacts/data_ingestion/ ]
+[2025-03-26 10:39:50,826: INFO : stage_01_data_ingestion : >>>>> satge Data Ingestion Stage completed  ]
+[2025-03-26 10:40:07,845: INFO : stage_02_prepare_base_model : >>>>> satge preparing base models started  ]
+[2025-03-26 10:40:07,861: INFO : common : yaml file: config\config.yaml loaded successfully ]
+[2025-03-26 10:40:07,861: INFO : common : yaml file: params.yaml loaded successfully ]
+[2025-03-26 10:40:07,861: INFO : common : Directory: artifacts created successfully ]
+[2025-03-26 10:40:07,861: INFO : common : Directory: artifacts/prepare_base_model created successfully ]
+[2025-03-26 10:40:09,535: INFO : stage_02_prepare_base_model : >>>>> satge preparing base models completed  ]
+[2025-03-26 10:40:18,868: INFO : stage_03_training : >>>>> satge Training started  ]
+[2025-03-26 10:40:18,868: INFO : common : yaml file: config\config.yaml loaded successfully ]
+[2025-03-26 10:40:18,868: INFO : common : yaml file: params.yaml loaded successfully ]
+[2025-03-26 10:40:18,875: INFO : common : Directory: artifacts created successfully ]
+[2025-03-26 10:40:18,878: INFO : common : Directory: artifacts/prepare_callback/checkpoint_dir created successfully ]
+[2025-03-26 10:40:18,878: INFO : common : Directory: artifacts\training created successfully ]
+[2025-03-26 10:41:05,126: INFO : stage_03_training : >>>>> satge Training completed  ]
+[2025-03-26 10:41:15,278: INFO : stage_04_model_evaluation : >>>>> satge Model EVALUATION started  ]
+[2025-03-26 10:41:15,282: INFO : common : yaml file: config\config.yaml loaded successfully ]
+[2025-03-26 10:41:15,285: INFO : common : yaml file: params.yaml loaded successfully ]
+[2025-03-26 10:41:15,285: INFO : common : Directory: artifacts created successfully ]
+[2025-03-26 10:41:15,285: INFO : common : Directory: artifacts/data_ingestion created successfully ]
+[2025-03-26 10:41:30,034: INFO : common : Jason file: scores.json saved successfully ]
+[2025-03-26 10:41:30,034: INFO : stage_04_model_evaluation : >>>>> satge Model EVALUATION completed  ]
+[2025-03-26 10:42:01,692: INFO : _internal : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://172.16.160.156:8080 ]
+[2025-03-26 10:42:01,692: INFO : _internal : [33mPress CTRL+C to quit[0m ]
+[2025-03-26 10:42:01,699: INFO : _internal :  * Restarting with stat ]
+[2025-03-26 10:42:11,216: WARNING : _internal :  * Debugger is active! ]
+[2025-03-26 10:42:11,224: INFO : _internal :  * Debugger PIN: 982-044-209 ]
+[2025-03-26 10:42:11,267: INFO : _internal : 127.0.0.1 - - [26/Mar/2025 10:42:11] "GET / HTTP/1.1" 200 - ]
+[2025-03-26 10:42:22,756: INFO : _internal : 127.0.0.1 - - [26/Mar/2025 10:42:22] "POST /predict HTTP/1.1" 200 - ]
+[2025-03-26 09:38:12,270: INFO : font_manager : generated new fontManager ]
+[2025-03-26 09:38:13,069: INFO : _internal : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.18.0.2:5000 ]
+[2025-03-26 09:38:13,070: INFO : _internal : [33mPress CTRL+C to quit[0m ]
+[2025-03-26 09:38:13,073: INFO : _internal :  * Restarting with stat ]
+[2025-03-26 09:38:18,874: WARNING : _internal :  * Debugger is active! ]
+[2025-03-26 09:38:18,876: INFO : _internal :  * Debugger PIN: 569-225-770 ]
