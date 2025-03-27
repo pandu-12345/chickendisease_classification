@@ -12,7 +12,10 @@ if project_root not in sys.path:
 
 """""
 import os
-
+import sys
+sys.path.append(os.path.join(os.getcwd(), "src"))
+# Add the parent directory of "myproject" to the system path
+#sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 print("Current Working Directory:", os.getcwd())
 

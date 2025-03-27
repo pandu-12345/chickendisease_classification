@@ -1,3 +1,7 @@
+import sys
+import os
+sys.path.append(os.path.abspath(os.path.join(os.getcwd(), "src")))
+
 from  cnnClassifier.loggs import  logger
 from cnnClassifier.components.model_evalution import Evaluation
 from cnnClassifier.config.configuration import ConfigurationManager

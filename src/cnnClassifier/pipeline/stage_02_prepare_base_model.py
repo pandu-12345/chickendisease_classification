@@ -1,8 +1,10 @@
-from  cnnClassifier.loggs import  logger
-from  cnnClassifier.config.configuration import  ConfigurationManager
-from  cnnClassifier.entity.config_entity import  PrepareBaseModelConfig
+import sys
+import os
+sys.path.append(os.path.abspath(os.path.join(os.getcwd(), "src")))
+from cnnClassifier.loggs import  logger
+from cnnClassifier.config.configuration import  ConfigurationManager
+from cnnClassifier.entity.config_entity import  PrepareBaseModelConfig
 from cnnClassifier.components.models import PrepareBaseModel
-
 
 
 

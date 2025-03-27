@@ -994,3 +994,99 @@ Source-Age: 1
 [2025-03-26 09:38:13,073: INFO : _internal :  * Restarting with stat ]
 [2025-03-26 09:38:18,874: WARNING : _internal :  * Debugger is active! ]
 [2025-03-26 09:38:18,876: INFO : _internal :  * Debugger PIN: 569-225-770 ]
+[2025-03-27 11:48:33,200: INFO : stage_01_data_ingestion : >>>>> satge Data Ingestion Stage started  ]
+[2025-03-27 11:48:33,204: INFO : common : yaml file: config\config.yaml loaded successfully ]
+[2025-03-27 11:48:33,210: INFO : common : yaml file: params.yaml loaded successfully ]
+[2025-03-27 11:48:33,211: INFO : common : Directory: artifacts created successfully ]
+[2025-03-27 11:48:33,212: INFO : common : Directory: artifacts/data_ingestion created successfully ]
+[2025-03-27 11:48:36,430: INFO : data_ingestion : artifacts\data_ingestion\data.zip downloaded with the following info: 
+Connection: close
+Content-Length: 11616915
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "adf745abc03891fe493c3be264ec012691fe3fa21d861f35a27edbe6d86a76b1"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 4497:2A8B2D:E5808:264C09:67E4E218
+Accept-Ranges: bytes
+Date: Thu, 27 Mar 2025 06:18:35 GMT
+Via: 1.1 varnish
+X-Served-By: cache-del21750-DEL
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1743056315.968596,VS0,VE252
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 8e34a6b0ad0f4e97966200dfd46003dadec99509
+Expires: Thu, 27 Mar 2025 06:23:35 GMT
+Source-Age: 0
+
+ ]
+[2025-03-27 11:48:36,909: INFO : data_ingestion : Zip file extracted to : artifacts/data_ingestion/ ]
+[2025-03-27 11:48:36,911: INFO : stage_01_data_ingestion : >>>>> satge Data Ingestion Stage completed  ]
+[2025-03-27 11:52:17,525: INFO : stage_02_prepare_base_model : >>>>> satge preparing base models started  ]
+[2025-03-27 11:52:17,538: INFO : common : yaml file: config\config.yaml loaded successfully ]
+[2025-03-27 11:52:17,541: INFO : common : yaml file: params.yaml loaded successfully ]
+[2025-03-27 11:52:17,541: INFO : common : Directory: artifacts created successfully ]
+[2025-03-27 11:52:17,542: INFO : common : Directory: artifacts/prepare_base_model created successfully ]
+[2025-03-27 11:52:19,340: INFO : stage_02_prepare_base_model : >>>>> satge preparing base models completed  ]
+[2025-03-27 11:53:12,502: INFO : stage_03_training : >>>>> satge Training started  ]
+[2025-03-27 11:53:12,514: INFO : common : yaml file: config\config.yaml loaded successfully ]
+[2025-03-27 11:53:12,514: INFO : common : yaml file: params.yaml loaded successfully ]
+[2025-03-27 11:53:12,514: INFO : common : Directory: artifacts created successfully ]
+[2025-03-27 11:53:12,522: INFO : common : Directory: artifacts/prepare_callback/checkpoint_dir created successfully ]
+[2025-03-27 11:53:12,522: INFO : common : Directory: artifacts\training created successfully ]
+[2025-03-27 11:55:44,150: INFO : stage_03_training : >>>>> satge Training started  ]
+[2025-03-27 11:55:44,150: INFO : common : yaml file: config\config.yaml loaded successfully ]
+[2025-03-27 11:55:44,150: INFO : common : yaml file: params.yaml loaded successfully ]
+[2025-03-27 11:55:44,150: INFO : common : Directory: artifacts created successfully ]
+[2025-03-27 11:55:44,160: INFO : common : Directory: artifacts/prepare_callback/checkpoint_dir created successfully ]
+[2025-03-27 11:55:44,162: INFO : common : Directory: artifacts\training created successfully ]
+[2025-03-27 11:57:18,542: INFO : stage_03_training : >>>>> satge Training completed  ]
+[2025-03-27 11:58:04,889: INFO : stage_04_model_evaluation : >>>>> satge Model EVALUATION started  ]
+[2025-03-27 11:58:04,897: INFO : common : yaml file: config\config.yaml loaded successfully ]
+[2025-03-27 11:58:04,897: INFO : common : yaml file: params.yaml loaded successfully ]
+[2025-03-27 11:58:04,905: INFO : common : Directory: artifacts created successfully ]
+[2025-03-27 11:58:04,905: INFO : common : Directory: artifacts/data_ingestion created successfully ]
+[2025-03-27 11:58:16,784: INFO : common : Jason file: scores.json saved successfully ]
+[2025-03-27 11:58:16,785: INFO : stage_04_model_evaluation : >>>>> satge Model EVALUATION completed  ]
+[2025-03-27 11:59:25,118: INFO : stage_03_training : >>>>> satge Training started  ]
+[2025-03-27 11:59:25,118: INFO : common : yaml file: config\config.yaml loaded successfully ]
+[2025-03-27 11:59:25,125: INFO : common : yaml file: params.yaml loaded successfully ]
+[2025-03-27 11:59:25,126: INFO : common : Directory: artifacts created successfully ]
+[2025-03-27 11:59:25,127: INFO : common : Directory: artifacts/prepare_callback/checkpoint_dir created successfully ]
+[2025-03-27 11:59:25,130: INFO : common : Directory: artifacts\training created successfully ]
+[2025-03-27 12:00:11,646: INFO : stage_03_training : >>>>> satge Training completed  ]
+[2025-03-27 12:00:21,653: INFO : stage_04_model_evaluation : >>>>> satge Model EVALUATION started  ]
+[2025-03-27 12:00:21,653: INFO : common : yaml file: config\config.yaml loaded successfully ]
+[2025-03-27 12:00:21,653: INFO : common : yaml file: params.yaml loaded successfully ]
+[2025-03-27 12:00:21,663: INFO : common : Directory: artifacts created successfully ]
+[2025-03-27 12:00:21,664: INFO : common : Directory: artifacts/data_ingestion created successfully ]
+[2025-03-27 12:00:33,572: INFO : common : Jason file: scores.json saved successfully ]
+[2025-03-27 12:00:33,573: INFO : stage_04_model_evaluation : >>>>> satge Model EVALUATION completed  ]
+[2025-03-27 12:01:07,681: INFO : stage_03_training : >>>>> satge Training started  ]
+[2025-03-27 12:01:07,686: INFO : common : yaml file: config\config.yaml loaded successfully ]
+[2025-03-27 12:01:07,689: INFO : common : yaml file: params.yaml loaded successfully ]
+[2025-03-27 12:01:07,689: INFO : common : Directory: artifacts created successfully ]
+[2025-03-27 12:01:07,690: INFO : common : Directory: artifacts/prepare_callback/checkpoint_dir created successfully ]
+[2025-03-27 12:01:07,691: INFO : common : Directory: artifacts\training created successfully ]
+[2025-03-27 12:01:58,848: INFO : stage_03_training : >>>>> satge Training completed  ]
+[2025-03-27 12:02:11,289: INFO : stage_04_model_evaluation : >>>>> satge Model EVALUATION started  ]
+[2025-03-27 12:02:11,293: INFO : common : yaml file: config\config.yaml loaded successfully ]
+[2025-03-27 12:02:11,295: INFO : common : yaml file: params.yaml loaded successfully ]
+[2025-03-27 12:02:11,296: INFO : common : Directory: artifacts created successfully ]
+[2025-03-27 12:02:11,297: INFO : common : Directory: artifacts/data_ingestion created successfully ]
+[2025-03-27 12:02:27,528: INFO : common : Jason file: scores.json saved successfully ]
+[2025-03-27 12:02:27,531: INFO : stage_04_model_evaluation : >>>>> satge Model EVALUATION completed  ]
+[2025-03-27 12:08:50,194: INFO : _internal : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.16.160.156:5000 ]
+[2025-03-27 12:08:50,198: INFO : _internal : [33mPress CTRL+C to quit[0m ]
+[2025-03-27 12:08:50,204: INFO : _internal :  * Restarting with stat ]
+[2025-03-27 12:08:59,103: WARNING : _internal :  * Debugger is active! ]
+[2025-03-27 12:08:59,108: INFO : _internal :  * Debugger PIN: 982-044-209 ]

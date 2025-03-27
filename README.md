@@ -21,22 +21,21 @@ Chicken Disease Classification is a deep learning-based project aimed at accurat
 
 ## 🔍 **Model Architecture**
 - VGG16 model with additional custom layers for classification.
-- Performance metrics: **Accuracy, Precision, Recall, F1-Score**.
+- Performance metrics: **Accuracy**.
 
 ## ⚙️ **Workflow**
 1. **Data Collection & Preprocessing**
 2. **Model Training & Validation**
 3. **Hyperparameter Tuning**
 4. **Model Evaluation**
-5. **Deployment using Docker & Apache Airflow**
+5. **Deployment using Docker**
 
 ## 📊 **Results**
-- Achieved **X%** accuracy on the test set.
+- Achieved **86%** accuracy on the test set.
 - Effective in early disease detection with high precision and recall.
 
 ## 🚢 **Deployment**
 - Containerized using **Docker**.
-- Automated pipeline orchestrated by **Apache Airflow**.
 
 ## 🤝 **How to Use**
 1. **Clone the Repository:**
@@ -47,16 +46,24 @@ Chicken Disease Classification is a deep learning-based project aimed at accurat
    ```bash
    cd chicken-disease-classification
    ```
-3. **Run DVC Reproduction Pipeline:**
+3. **Create Enviroment:**
     ```bash 
-    dvc repro
+    conda create -n myenv python=3.10 -y
     ```
-4. **Build and Run Docker Container:**
+4. **Activate Enviroment:**
    ```bash
-   docker build -t chicken-disease .
-   docker run -p 5000:5000 chicken-disease
+   conda activate myenv
    ```
-5. **Access the Web Interface:**
+5. **Install requirements:**
+   ```bash
+   pip install -r requirements.txt
+   ```
+6. **Run DVC repro:**
+   ```bash
+   dvc repro
+   Python app.py
+   ```
+7. **Now**
    - Open `http://localhost:5000` in your browser.
 
 ## 🏅 **Future Enhancements**
